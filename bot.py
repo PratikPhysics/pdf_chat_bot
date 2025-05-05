@@ -55,7 +55,7 @@ def main():
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
 
-    st.header("Chat with PDF Navsahyadri Education  :books: (Gemini)")
+    st.header("Chat with PDF with Pratik  :books: (Gemini)")
     pdf_docs = st.file_uploader("Upload your PDF(s) here and click on 'Process'", accept_multiple_files=True)
 
     if st.button("Process"):
