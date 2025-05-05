@@ -50,7 +50,7 @@ def get_conversation_chain(vectorstore):
     return conversation_chain
 
 def main():
-    st.set_page_config(page_title="Chat with PDF at Navsahyadri Education  ", page_icon=":books:")
+    st.set_page_config(page_title="Chat with PDF with Pratik  ", page_icon=":books:")
 
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
